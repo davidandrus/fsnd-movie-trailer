@@ -1,4 +1,8 @@
-""" Create a movies webpage """
+"""
+App Script
+
+Defines a list of movies then open the movies webpage
+"""
 from fresh_tomatoes import open_movies_page
 from movie import Movie
 
