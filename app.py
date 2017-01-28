@@ -1,3 +1,4 @@
+""" Create a movies webpage """
 from fresh_tomatoes import open_movies_page
 from movie import Movie
 
