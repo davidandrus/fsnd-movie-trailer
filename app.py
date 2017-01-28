@@ -1,6 +1,7 @@
 from fresh_tomatoes import open_movies_page
 from movie import Movie
 
+
 big_lebowski = Movie(
     'The Big Lebowski',
     ('https://images-na.ssl-images-amazon.com/images/M/'
@@ -9,12 +10,15 @@ big_lebowski = Movie(
     'https://www.youtube.com/watch?v=cd-go0oBF4Y'
 )
 
+
 no_country = Movie(
     'No Country For Old Men',
     ('https://images-na.ssl-images-amazon.com/images/M'
     '/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_.jpg'),
     'https://www.youtube.com/watch?v=qnwNuG1ayno'
 )
+
+
 snatch = Movie(
     'Snatch',
     ('https://images-na.ssl-images-amazon.com/images/M'
@@ -23,6 +27,7 @@ snatch = Movie(
     'https://www.youtube.com/watch?v=ni4tEtuTccc'
 )
 
+
 the_orphanage = Movie(
     'The Orphanage',
     ('https://images-na.ssl-images-amazon.com/images/M/'
@@ -30,14 +35,15 @@ the_orphanage = Movie(
     'https://www.youtube.com/watch?v=nUZQgqxIZ6s'
 )
 
+
 fight_club = Movie(
     'Fight Club',
     ('https://images-na.ssl-images-amazon.com/images/M/'
     'MV5BMzc1YmU2ZjEtYWIwMC00ZjM3LWI0NTctMDVlNGQ3YmYwMz'
     'E5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY999_CR0,0,704,999_AL_.jpg'),
     'https://www.youtube.com/watch?v=SUXWAEX2jlg'
-
 )
+
 
 lock_stock = Movie(
     'Lock, Stock and Two Smoking Barrels',
@@ -46,6 +52,7 @@ lock_stock = Movie(
     'M4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,666,1000_AL_.jpg'),
     'https://www.youtube.com/watch?v=WoZ2kTlwKTk'
 )
+
 
 movies = [big_lebowski, no_country, snatch, the_orphanage, fight_club, lock_stock]
 open_movies_page(movies)
