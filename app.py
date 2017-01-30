@@ -3,8 +3,11 @@ App Script
 
 Defines a list of movies then open the movies webpage
 """
+
+
 from fresh_tomatoes import open_movies_page
 from movie import Movie
+
 
 # Movie definitions
 BIG_LEBOWSKI = Movie(
@@ -18,7 +21,9 @@ BIG_LEBOWSKI = Movie(
 
 NO_COUNTRY = Movie(
     'No Country For Old Men',
-    'https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_.jpg',#pylint: disable=line-too-long
+    # pylint: disable=line-too-long
+    'https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_.jpg',
+    # pylint: enable=line-too-long
     'https://www.youtube.com/watch?v=qnwNuG1ayno'
 )
 
@@ -58,6 +63,7 @@ LOCK_STOCK = Movie(
     'https://www.youtube.com/watch?v=WoZ2kTlwKTk'
 )
 # END movie definitions
+
 
 # put each movie in a list then call open_movies_page to create/open the webpage
 MOVIES = [BIG_LEBOWSKI, NO_COUNTRY, SNATCH, THE_ORPHANAGE, FIGHT_CLUB, LOCK_STOCK]
